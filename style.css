@@ -1,0 +1,71 @@
+
+body {
+    font-family:Helvitica, Arial, Sans-Serif;
+    background-color: rgba(64, 20, 10, 0.6);
+    background-position: left top;
+    background-image: url("https://images.unsplash.com/photo-1467094568967-95f87ee9c873?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=51fe3b51e0512cc9fe5115040716205b");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#title {
+    color:blue;
+}
+.aboutme-group {
+    background-color:rgba(10, 10, 10, 0.5);
+    padding: 10px 10px 20px 10px;
+}
+
+.aboutme-group h3 {
+    color:#FFF;
+    font-weight:normal;
+    font-style:italic;
+}
+
+a {
+    background-color:blue;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border: 2px solid #000084;
+    border-radius:10px;
+}
+
+a:hover {
+    background-color: #555;
+    border: 2px #333;
+}
+
+p {
+    font-size:1.2em;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight:100; /* font weight 100-900 */
+    color:#777;
+    line-height:125%;
+    letter-spacing:2px;
+    text-align:center;
+
+}
+
+.play {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 24%;
+
+}
+
+#one {
+    background-color:red;
+}
+#two {
+    background-color:blue;
+}
+#three {
+    background-color:purple;
+}
+#four {
+    background-color:green;
+}
