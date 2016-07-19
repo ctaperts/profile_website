@@ -3,81 +3,152 @@
 
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Colby Taperts - Profile Page">
+        <meta name="author" content="Colby Taperts">
+
         <title>
             Colby Taperts - Digital Engineer
         </title>
+
+    <!-- Adds Bootstrap, Google Fonts and jQuery -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500|Muli' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
 
+
+
     <body>
-            <nav>
-                <div class="nav-button">one</div>
-                <div class="nav-button">two</div>
-                <div class="nav-button">three</div>
-                <div class="nav-button">four</div>
-            </nav>
+    <!-- Navbar -->
+    <nav class="nav navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar">.</span>
+            <span class="icon-bar">.</span>
+            <span class="icon-bar">.</span>
+          </button>
+          <a class="navbar-brand" href="#">Colby Taperts</a>
+        </div>
 
-            <div class="img-me">
-                <img width=15% src="me.jpg" alt="Colby Taperts">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About me <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">At this moment</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact me</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Github <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Beta_Search</a></li>
+                <!--<li role="separator" class="divider"></li>-->
+                <li><a href="#">ranNUM</a></li>
+                <li><a href="#">Metadata_Extractor</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Splash page -->
+    <header class="splash-image">
+            <div class="headline">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 id="splash-text">
+                                I work with all things digital, a love of linux and a passion for learning
+                            </h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-right-align">
+                                <img width=80% src="me.jpg" alt="Colby Taperts">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+    </header>
 
-        <h1 id="title">
-            I work with all things digital, a love of linux and a passion for learning
-        </h1>
 
         <h3>
             Learn more about me
         </h3>
-        <div class="aboutme-group">
+    <div class="container">
+    <hr class="page-divider"/>
+    <!--first page -->
+        <div class="page-about-me">
             <h5>
                 Hello I am Colby Taperts. I am a IT administrator, web designer and programmer. When I create something that makes someone's life easier I know I've made a difference, for more than just that day.
             </h5>
-                <ul>
-                    <li>Linux is my foundation</li>
-                    <li>Coding is my passion</li>
-                    <li>Design is my jam</li>
-                </ul>
+        </div>
+    </div>
+    <div class="page-ul">
+            <ul>
+                <li>Linux is my foundation</li>
+                <li>Coding is my passion</li>
+                <li>Design is my jam</li>
+            </ul>
+    </div>
+    <hr class="page-divider"/>
+    <div class="container">
     
-    
+    <div class="page-second-about-me">
             <p>
                 Since I first built a computer, I wanted to build a super computer. Since I learned about Linux now I can create one.
             </p>
+    </div>
+    <br>
+    </div>
+    <hr class="page-divider"/>
+    <div class="container">
 
-            <br>
-        </div>
+    <div class="page-about-me">
+        <h2>
+            I'm currently working on a few github projects, if anyone is interested in helping or needs help with their project, I am here to learn.
+        </h2>
 
-        <div class="aboutme-group">
-            <h2>
-                I'm currently working on a few github projects, if anyone is interested in helping or needs help with their project, I am here to learn.
-            </h2>
-    
-                <ul>
-                    <li>
-                        Beta_Search - A google hacking tool
-                    </li>
-                    <li>
-                        ranNUM - A true random number generator
-                    </li>
-                    <li>
-                        Metadata_Extractor - Extract metadata from txt files
-                    </li>
-                    <li>
-                        (future project) Print from CSV
-                    </li>
-                    <li>
-                        (future project) OCR file Crawler
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                    Beta_Search - A google hacking tool
+                </li>
+                <li>
+                    ranNUM - A true random number generator
+                </li>
+                <li>
+                    Metadata_Extractor - Extract metadata from txt files
+                </li>
+                <li>
+                    (future project) Print from CSV
+                </li>
+                <li>
+                    (future project) OCR file Crawler
+                </li>
+            </ul>
+    </div>
+    <hr class="page-divider"/>
+    <div class="container">
 
-    
-            <p>
-                C.V
-            </p>
-            <p>
-                Colby@2lvl.com
-            </p>
-        </div>
+        <p>
+            C.V
+        </p>
+        <p>
+            Colby@2lvl.com
+        </p>
+    </div>
+    </div>
+
     </body>
-
 </html>
 
