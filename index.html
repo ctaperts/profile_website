@@ -61,15 +61,21 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!-- Splash page -->
-    <header class="splash-image">
+    <!-- header page -->
+    <header class="header-image splash">
             <div class="headline">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 id="splash-text">
-                                I work with all things digital, a love of linux and a passion for learning
-                            </h1>
+                                <div>
+                                <h1 class="">
+                                <span class="header-text">
+                                I work with all things digital, with a love of linux 
+                                    and 
+                                    a passion for learning
+                                </span>
+                                </h1>
+                                </div>
                         </div>
                         <div class="col-md-6">
                             <div class="img-right-align">
@@ -81,19 +87,38 @@
             </div>
     </header>
 
+    <br>
+    <!-- Modal button -->
+    <div class="container">
+        <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+
+    <!-- Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+    
+    <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <h3>
             Learn more about me
         </h3>
     <div class="container">
-    <hr class="page-divider"/>
+    <hr class="featurette-divider"/>
     <!--first page -->
-        <div class="page-about-me">
-            <h5>
-                Hello I am Colby Taperts. I am a IT administrator, web designer and programmer. When I create something that makes someone's life easier I know I've made a difference, for more than just that day.
-            </h5>
-        </div>
-    </div>
+        <div class="featurrette">
+              <img class="header-image img-responsive img-circle pull-right" src="http://placehold.it/500x500" alt="">
+            <h2 class="featurette-heading">
+                Hello I am Colby Taperts. 
+            </h2>
+                <p class="header-text">I am a IT administrator, web designer and programmer. When I create something that makes someone's life easier I know I've made a difference, for more than just that day.
+                </p>
     <div class="page-ul">
             <ul>
                 <li>Linux is my foundation</li>
@@ -101,17 +126,20 @@
                 <li>Design is my jam</li>
             </ul>
     </div>
-    <hr class="page-divider"/>
+        </div>
+    </div>
     <div class="container">
+    <hr class="featurette-divider"/>
     
     <div class="page-second-about-me">
-            <p>
+              <img class="header-image img-responsive img-circle pull-left" src="http://placehold.it/500x500" alt="">
+            <p style="color:white;">
                 Since I first built a computer, I wanted to build a super computer. Since I learned about Linux now I can create one.
             </p>
     </div>
     <br>
     </div>
-    <hr class="page-divider"/>
+    <hr class="featurette-divider"/>
     <div class="container">
 
     <div class="page-about-me">
@@ -137,7 +165,7 @@
                 </li>
             </ul>
     </div>
-    <hr class="page-divider"/>
+    <hr class="featurette-divider"/>
     <div class="container">
 
         <p>
@@ -150,5 +178,14 @@
     </div>
 
     </body>
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+
+
 </html>
 

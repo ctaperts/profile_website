@@ -5,7 +5,7 @@ body {
     background-color: rgba(64, 20, 10, 0.6);
 }
 
-.splash-image {
+.header-image.splash {
     display:block;
     width:100%;
     text-align:center;
@@ -14,9 +14,20 @@ body {
 }
 
 .headline {
-    padding: 40px 0;
+    padding: 120px 0;
 }
 
+.headline h1 {
+    padding: 120px 0;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.headline h2 {
+    padding: 120px 0;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 
 .page-divider {
     margin: 130px 0;
@@ -26,11 +37,15 @@ body {
     overflow:hidden;
 }
 
-#splash-text {
-    color:#32323;
+.margin-top {
+    margin-top:10%;
 }
 
-.img-splash {
+.header-text {
+    color:blue;
+}
+
+.img-header {
 }
 
 .img-left-align {
