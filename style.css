@@ -51,6 +51,14 @@ body {
     color: #ddd;
 }
 
+.text-white {
+    color: #fff;
+}
+
+.text-grey {
+    color: #323232;
+}
+
 .li-text {
     font-size: 18px;
     color: #444;
