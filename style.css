@@ -6,11 +6,10 @@ body {
 }
 
 .header-image.splash {
-    display:block;
-    width:100%;
-    text-align:center;
-    background:url('http://placehold.it/1900x500') no-repeat center center scroll;
-    background-size: cover;
+    background-image: url('bottom-left-01.png');
+    background-repeat: no-repeat;
+    background-position: 0px 100%;
+    background-size: 60%;
 }
 
 .headline {
@@ -18,9 +17,8 @@ body {
 }
 
 .headline h1 {
-    padding: 120px 0;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    padding: 120px 0 20px 230px;
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
@@ -48,7 +46,6 @@ body {
 
 .header-text {
     font-size: 20px;
-    color: #ddd;
 }
 
 .text-white {
@@ -72,7 +69,7 @@ body {
 }
 
 .img-right-align {
-    margin-left:40px;
+    margin-left:20%;
 }
 
 .page-about-me {
