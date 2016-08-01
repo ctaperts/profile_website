@@ -63,8 +63,12 @@ div.hot {
 .header-image.splash {
     background-image: url('/bottom-left-01.png');
     background-repeat: no-repeat;
-    background-position: 0px 120%;
+    background-position: 0px 60%;
     background-size: 60%;
+}
+
+div.container {
+  height: 350px;
 }
 
 .headline {
@@ -104,9 +108,7 @@ div.hot {
     margin-left: 50px;
 }
 
-.third-page-text {
-	padding-top: 200px;
-	padding-bottom: 200px;
+.page-text {
 	font-size: 20px;
 	text-align: center;
 	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;

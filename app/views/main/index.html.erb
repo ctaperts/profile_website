@@ -1,15 +1,16 @@
 <script> new WOW().init(); </script>
 <div class="container">
   <header class="header-image animated fadeIn delayAnimate splash" style="margin-bottom:200px;">
-            <div class="headline">
+            <div class="headline" style="padding-top:0px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                                <h1>
+			      <div class="page-text">
 				  <div class="header-text">
 				    <span class="text-grey animated delayAnimate fadeIn">I work with all things digital,</span><span class="animated delayAnimate2 fadeIn"> with a love of linux and a passion for learning</span>
-                                </h1>
-                        </div>
+				  </div>
+			      </div>
+			</div>
                         <div class="col-md-6">
                             <div class="img-right-align">
                                 <img width=80% src="me.jpg" alt="Colby Taperts">
@@ -26,38 +27,37 @@
     <!-- 1st page -->
     <div class="headline">
         <div class="revealone hidden">
-    <hr class="featurette-divider wow fadeIn"/>
-        <div class="container">
-            <div class="row">
+      <hr class="featurette-divider wow fadeIn"/>
+	    <div class="container">
+	      <div class="row">
                 <div class="col-md-6 page-box">
-		  <h1 style="padding: 60px 0px 40px 100px; width: 600px; height: 210px; margin-bottom: 60px;">
+		  <div class="page-text">
 		      <div class="header-text wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             <span class="text-grey" style="text-align:center;">
                                 I am a IT administrator, web designer and programmer. When I create something that makes someone's life easier I know I've made a difference, for more than just that day.
                             </span>
 		      </div>
-		  </h1>
-                    <br>
+		  </div>
                 </div>
 
                 <div class="col-md-6">
 		  <div class="img-right-align wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
                             <img class="header-image img-responsive img-circle pull-right" src="page2.jpg" alt="">
-                        </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        </div>
+	      </div>
+	    </div>
+	</div>
     </div>
-    </div>
-    </div>
+    </div> <!-- hotone-->
+
     <div class="hottwo">
     
     <!-- 2nd page -->
     <div class="headline">
         <div class="revealtwo hidden">
     <hr class="featurette-divider wow fadeIn"/>
-        <div class="container wow fadeInUp">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-left-align">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-		  <div class="third-page-text">
+		  <div class="page-text">
                          <span class="header-text text-grey">
                              Since I first built a computer, I wanted to build a super computer. Since I learned about Linux now I can create one.
                         </span>
@@ -74,8 +74,7 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
+    </div> <!-- hottwo -->
     <div class="hotthree">
 
     <br>
@@ -143,8 +142,15 @@
     <br><br>
     <br><br>
     <br><br>
+    <br><br>
+    <div class="hotfour">
+    <br><br>
+    <br><br>
+    <br><br>
     <br><br>&nbsp;
-    <img src="/white.gif" alt="">
+    <div class="revealfour hidden">
+    <img src="/white.gif" alt="placeholder for a icon to refresh page from top">
+    </div>
 
     <!--<div class="container wow fadeInUp"data-wow-duration="2s" data-wow-delay="2s">-->
 <!-- scripts -->
@@ -173,6 +179,15 @@ setTimeout(function(){
 $(document).ready(function(){
     $("div.hotthree").mouseover(function(){
         $("div.revealthree").removeClass("hidden");
+    });
+});
+}, 220);
+</script>
+<script>
+setTimeout(function(){
+$(document).ready(function(){
+    $("div.hotfour").mouseover(function(){
+        $("div.revealfour").removeClass("hidden");
     });
 });
 }, 220);
