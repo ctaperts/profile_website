@@ -1,0 +1,210 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    margin-top: 50px;
+    font-family:Helvitica, Arial, Sans-Serif;
+    background-color: #FFFFFF;
+}
+
+
+//text decoration
+a {
+	color: #577399;
+	text-decoration: none;
+}
+
+// navbar
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-brand {
+    color: #495867;
+}
+.navbar-default .navbar-brand:hover {
+    color: #577399;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #495867;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #577399;
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+      background-color: #495867;
+}
+
+div.hot {
+	margin: 1px;
+}
+
+// delay animation
+.delayAnimate {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+  -ms-animation-duration: 3s;
+  -ms-animation-delay: 1s;
+}
+.delayAnimate2 {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 2s;
+  -ms-animation-duration: 3s;
+  -ms-animation-delay: 2s;
+}
+
+// body 
+.header-image.splash {
+    background-image: url('/bottom-left-01.png');
+    background-repeat: no-repeat;
+    background-position: 0px 120%;
+    background-size: 60%;
+}
+
+.headline {
+    padding: 80px 0;
+}
+
+.headline h1 {
+    padding: 120px 0 20px 230px;
+    /*background: rgba(255,255,255,0.9);*/
+}
+
+.headline h2 {
+    padding: 120px 0;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.page-divider {
+    margin: 130px 0;
+}
+
+.page {
+    overflow:hidden;
+}
+
+.page-box {
+    padding: 0px 1%;
+}
+
+
+.margin-top {
+    margin-top:10%;
+}
+
+.header-text {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.third-page-text {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    	font-weight: 300;
+     	line-height: 1.1;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-grey {
+    color: #495867;
+}
+
+.li-text {
+    font-size: 18px;
+    color: #444;
+}
+
+.img-header {
+}
+
+.img-left-align {
+    margin-right:40px;
+}
+
+.img-right-align {
+    margin-left:20%;
+}
+
+.page-about-me {
+    background-color: #495867;
+}
+
+.page-contact {
+    padding:50px 50px 50px 50px;
+}
+
+.page-about-me h3 {
+    color:#FFF;
+    font-weight:normal;
+    font-style:italic;
+}
+
+
+p {
+    font-size:1.2em;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight:100; /* font weight 100-900 */
+    color:#777;
+    line-height:125%;
+    letter-spacing:2px;
+    text-align:center;
+
+}
+
+//@media (max-width: @screen-xs-max) { ... }
+//@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+//@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+//@media (min-width: @screen-lg-min) { ... }
+
+@media only screen and (max-width: 993px) {
+	.header-image.splash {
+		background-image: none ;
+		background-repeat:  none;
+		background-position:  none;
+		background-size:  none;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.headline {
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.headline h1 {
+		padding-top: 20px;
+		text-align: center;
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	img.header-image {
+		 display: none;
+	}
+}
+
+
+@media only screen and (max-width: 993px) {
+	.page-box {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+
