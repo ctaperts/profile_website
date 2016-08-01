@@ -1,0 +1,224 @@
+/* line 4, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+body {
+  margin-top: 50px;
+  font-family: Helvitica, Arial, Sans-Serif;
+  background-color: #FFFFFF;
+}
+
+/* line 12, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+a {
+  color: #577399;
+  text-decoration: none;
+}
+
+/* line 18, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default {
+  background-color: transparent;
+}
+
+/* line 21, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default .navbar-brand {
+  color: #495867;
+}
+
+/* line 24, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default .navbar-brand:hover {
+  color: #577399;
+}
+
+/* line 28, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #495867;
+}
+
+/* line 31, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #577399;
+  background-color: transparent;
+}
+
+/* line 36, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #495867;
+}
+
+/* line 40, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+div.hot {
+  margin: 1px;
+}
+
+/* line 45, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.delayAnimate {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+  -ms-animation-duration: 3s;
+  -ms-animation-delay: 1s;
+}
+
+/* line 53, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.delayAnimate2 {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 2s;
+  -ms-animation-duration: 3s;
+  -ms-animation-delay: 2s;
+}
+
+/* line 63, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.header-image.splash {
+  background-image: url("/bottom-left-01.png");
+  background-repeat: no-repeat;
+  background-position: 0px 120%;
+  background-size: 60%;
+}
+
+/* line 70, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.headline {
+  padding: 80px 0;
+}
+
+/* line 74, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.headline h1 {
+  padding: 120px 0 20px 230px;
+  /*background: rgba(255,255,255,0.9);*/
+}
+
+/* line 79, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.headline h2 {
+  padding: 120px 0;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 85, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page-divider {
+  margin: 130px 0;
+}
+
+/* line 89, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page {
+  overflow: hidden;
+}
+
+/* line 93, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page-box {
+  padding: 0px 1%;
+}
+
+/* line 98, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.margin-top {
+  margin-top: 10%;
+}
+
+/* line 102, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.header-text {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+/* line 107, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.third-page-text {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+/* line 117, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 121, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.text-grey {
+  color: #495867;
+}
+
+/* line 125, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.li-text {
+  font-size: 18px;
+  color: #444;
+}
+
+/* line 133, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.img-left-align {
+  margin-right: 40px;
+}
+
+/* line 137, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.img-right-align {
+  margin-left: 20%;
+}
+
+/* line 141, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page-about-me {
+  background-color: #495867;
+}
+
+/* line 145, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page-contact {
+  padding: 50px 50px 50px 50px;
+}
+
+/* line 149, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+.page-about-me h3 {
+  color: #FFF;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 156, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+p {
+  font-size: 1.2em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 100;
+  /* font weight 100-900 */
+  color: #777;
+  line-height: 125%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 993px) {
+  /* line 173, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+  .header-image.splash {
+    background-image: none;
+    background-repeat: none;
+    background-position: none;
+    background-size: none;
+  }
+}
+@media only screen and (max-width: 993px) {
+  /* line 182, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+  .headline {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  /* line 189, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+  .headline h1 {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  /* line 197, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+  img.header-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 993px) {
+  /* line 204, /home/colby/GIT/rails/profile_website/app/assets/stylesheets/main.scss */
+  .page-box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
